@@ -4,11 +4,12 @@ interface Props {
   */
   name?: string;
   age? : number;
-  raca : string
+  raca? : string;
+  
 }
 
-export default function Section({name, age, raca} : Props) {
+export default function Section({name = "Nome", age = 27, raca = "vira lata"} : Props) {
   return <div>
-    Hello {name}
+    Hello {name}, sua raça é {raca}
   </div>
    }
