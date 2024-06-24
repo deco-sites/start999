@@ -1,10 +1,15 @@
 import { useEffect } from 'preact/hooks';
-const MigrationBanner = () => {
+
+export interface Img {
+  file : File
+}
+
+const MigrationBanner = (file : Img) => {
   useEffect(() => {
     const style = document.createElement('style');
     style.textContent = `
       .background-arrows {
-        background: url('https://t3.ftcdn.net/jpg/00/86/56/12/360_F_86561234_8HJdzg2iBlPap18K38mbyetKfdw1oNrm.jpg') no-repeat center;
+        background: url("https://t3.ftcdn.net/jpg/00/86/56/12/360_F_86561234_8HJdzg2iBlPap18K38mbyetKfdw1oNrm.jpg") no-repeat center;
         background-size: cover;
       }
     `;
