@@ -1,4 +1,6 @@
 {
   "__resolveType": "site/sections/FullBanner.tsx",
-  "raca": "labrador"
+  "raca": "labrador",
+  "isAlive": false,
+  "color": {}
 }

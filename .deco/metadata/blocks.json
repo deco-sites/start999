@@ -48,5 +48,9 @@
   "/.deco/blocks/Preview%20%2Fsections%2FFullBanner.tsx.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/FullBanner.tsx"
+  },
+  "/.deco/blocks/Preview%20%2Fsections%2Fon.tsx.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/on.tsx"
   }
 }

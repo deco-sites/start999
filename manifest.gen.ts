@@ -9,6 +9,7 @@ import * as $$$$$$1 from "./sections/FullBanner.tsx";
 import * as $$$$$$2 from "./sections/Header.tsx";
 import * as $$$$$$3 from "./sections/ItWorks.tsx";
 import * as $$$$$$4 from "./sections/NewSection.tsx";
+import * as $$$$$$6 from "./sections/on.tsx";
 import * as $$$$$$5 from "./sections/Theme/Theme.tsx";
 
 const manifest = {
@@ -18,6 +19,7 @@ const manifest = {
     "site/sections/Header.tsx": $$$$$$2,
     "site/sections/ItWorks.tsx": $$$$$$3,
     "site/sections/NewSection.tsx": $$$$$$4,
+    "site/sections/on.tsx": $$$$$$6,
     "site/sections/Theme/Theme.tsx": $$$$$$5,
   },
   "apps": {
