@@ -1,10 +1,14 @@
 import { useEffect } from 'preact/hooks';
 
-export interface Img {
-  file : File
+interface Props {
+  /**
+  * @description The description of name.
+  */
+  name?: string;
 }
 
-const MigrationBanner = (file : Img) => {
+const MigrationBanner = ({ file } : Props) => {
+  console.log(file)
   useEffect(() => {
     const style = document.createElement('style');
     style.textContent = `
@@ -19,8 +23,10 @@ const MigrationBanner = (file : Img) => {
     };
   }, []);
 
+  
   return (
     <div className="background-arrows flex flex-col items-center justify-center text-center h-screen bg-blue-900 text-white">
+      <img src={file} />
       <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold mb-4">
         UMA MIGRAÇÃO VTEX IO DESCOMPLICADA,
       </h1>
